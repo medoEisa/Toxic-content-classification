@@ -1,0 +1,4 @@
+original_input,caption,predicted_class,confidence
+text,two kids walking ,Safe,0.931762158870697
+image,two young boys standing in front of a wall,Safe,0.8140588402748108
+text,"A man attacking another with a knife, blood everywhere",Violent Crimes,0.48282936215400696
