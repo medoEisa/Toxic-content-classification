@@ -120,12 +120,6 @@ Then open the local Streamlit URL shown in the terminal.
 - The `models/Distil-BERT_model` directory contains the fine-tuned text classification model and associated tokenizer files.
 - If `torch.cuda.is_available()` returns `True`, the app uses GPU acceleration; otherwise it runs on CPU.
 
-## Recommended Improvements
-
-- Add a `requirements.txt` file for reproducible dependency installation.
-- Convert the hard-coded `TOX_MODEL_PATH` into a configuration value or environment variable.
-- Add error handling around model loading and prediction failures.
-- Document the specific toxicity labels used by `label_mappings.json`.
 
 ## Task-0 Assets
 
